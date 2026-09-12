@@ -1,989 +1,979 @@
 # 🧶 Mirzapur Qaleen — Premium Handmade Carpets E-Commerce Platform
 
-### 🏆 India's Traditional Carpet Craft — Now Digitally Yours
+**Traditional Craft • Modern E-Commerce • PHP • MySQL/MariaDB • Responsive Web**
 
-> **"Mirzapur ki Qaleen ab ghar baithe order karein." 🇮🇳**
+Mirzapur Qaleen is a full-stack **PHP-based E-Commerce Platform** designed for showcasing and selling handmade carpets, rugs, durries, flooring products, home-furnishing items, and customized designs.
 
-**Mirzapur Qaleen** is a PHP-based full-stack e-commerce platform designed to bring Mirzapur's traditional handmade carpets, durries, handicrafts, and home-furnishing products to a modern digital shopping experience.
+It provides a complete shopping experience with **product categories, user authentication, product management, orders, customer details, contact enquiries, and database-driven content.**
 
-The platform provides a complete customer shopping journey along with a dedicated **Admin Management System** for products, categories, users, orders, and basic sales information.
+[![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square\&logo=php\&logoColor=white)](https://www.php.net/) [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square\&logo=mysql\&logoColor=white)](https://www.mysql.com/) [![MariaDB](https://img.shields.io/badge/MariaDB-Database-003545?style=flat-square\&logo=mariadb\&logoColor=white)](https://mariadb.org/) [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![XAMPP](https://img.shields.io/badge/XAMPP-FF6C2C?style=flat-square\&logo=apachefriends\&logoColor=white)](https://www.apachefriends.org/)
 
-**Customer Shopping Flow:**
+**Features • E-Commerce • Authentication • Products • Orders • Database • Admin • Customization • Setup • Tech Stack • Project Structure**
 
-`Product Discovery → Customization → Cart → Checkout → Address → Order → Invoice`
 
----
+## 🌟 Project Overview
 
-## 📖 Table of Contents
+**Mirzapur Qaleen** is a web-based e-commerce platform focused on traditional Indian handmade carpet and home-furnishing products.
 
-* [About the Project](#-about-the-project)
-* [Project Goals](#-project-goals)
-* [Key Features](#-key-features)
-* [Admin Panel](#-admin-panel)
-* [Technical Features](#-technical-features)
-* [Tech Stack](#-tech-stack)
-* [Architecture](#️-project-architecture)
-* [Data Flow](#-core-shopping-flow)
-* [Project Structure](#-project-structure)
-* [Installation Guide](#-installation-guide)
-* [Database Setup](#️-database-setup)
-* [How to Use](#-how-to-use)
-* [Security](#-security--technical-notes)
-* [Roadmap](#️-roadmap)
-* [Project Highlights](#-project-highlights)
-* [License](#-license)
-* [Author](#-author)
-* [Acknowledgements](#-acknowledgements)
-* [Contact](#-contact)
+The project combines a responsive frontend with a PHP backend and relational database to provide an end-to-end online shopping experience.
 
----
+### 🎯 Main Objectives
 
-# 🎯 About the Project
-
-**Mirzapur Qaleen** is a full-stack e-commerce web application built using **PHP, MySQL/MariaDB, HTML5, CSS3, and JavaScript**.
-
-The project focuses on digitizing traditional Mirzapur carpet and handicraft products by providing customers with an online platform where they can:
-
-* Browse products and categories
-* Explore carpet designs
-* Select size and style
-* Customize carpet requirements
-* Add products to cart
-* Register/login
-* Enter delivery address
-* Place orders
-* View order information
-* Access account information
-
-The system also provides a dedicated **Admin Panel** for centralized management of the e-commerce platform.
-
----
-
-# 🎯 Project Goals
-
-### 🧶 Digitalize Traditional Craft
-
-Give traditional Mirzapur carpets and handicraft products a digital platform.
-
-### 🛍️ Complete Online Shopping
-
-Provide customers with a complete e-commerce experience from product discovery to order placement.
-
-### 🎨 Product Customization
-
-Allow customers to explore different carpet sizes, designs, and styles.
-
-### 🧑‍💼 Centralized Administration
-
-Provide administrators with a centralized dashboard for managing products, users, categories, and orders.
-
-### 📱 Responsive Experience
-
-Provide a responsive interface for:
-
-* Desktop
-* Tablet
-* Mobile
-
-### 🇮🇳 Promote Local Craftsmanship
-
-Help connect traditional Indian craftsmanship with modern digital commerce.
+* Digitize traditional Mirzapur carpet businesses
+* Showcase handmade carpet and home-furnishing products online
+* Provide category-based product discovery
+* Allow customers to register and manage their accounts
+* Provide an online ordering workflow
+* Store customer and order information securely
+* Provide contact and enquiry functionality
+* Support product customization concepts
+* Provide a foundation for future payment and logistics integration
 
 ---
 
 # ✨ Key Features
 
-## 🛍️ Customer Features
+## 🛍️ E-Commerce Features
 
-| Feature                   | Description                                                                                    |
-| ------------------------- | ---------------------------------------------------------------------------------------------- |
-| 🏠 Dynamic Homepage       | Hero slider, featured products, and category showcase                                          |
-| 🧵 20+ Product Categories | Carpets, durries, brass vessels, bamboo bottles, cushion covers, doormats, paintings, and more |
-| 🎨 Custom Design Studio   | Submit/customize carpet preferences such as color, size, and style                             |
-| 📏 Size Selector          | Select sizes such as 2×3, 5×7, and 8×10 ft                                                     |
-| 🖌️ Style Selector        | Traditional, Modern, Persian, and Geometric styles                                             |
-| 🛒 Smart Cart             | Add, update, remove products and calculate totals                                              |
-| 👤 User Account           | Registration, login, profile, and order history                                                |
-| 📦 Order Management       | Complete cart-to-order workflow                                                                |
-| 🧾 Order Confirmation     | Order confirmation/invoice information                                                         |
-| 🔄 Return & Refund        | Return policy and related information                                                          |
-| 🧼 Dry Cleaning Exchange  | "Purani Carpet Do, Nayi Lo" exchange offer                                                     |
-| 🧽 Carpet Maintenance     | Carpet-care and maintenance information                                                        |
-| 📞 Contact Form           | Validated customer enquiry form                                                                |
-| 📜 Legal Pages            | Privacy Policy, Shipping Policy, Terms, etc.                                                   |
-| 🤝 Social Weavers Welfare | Artisan-support initiative                                                                     |
-| 🏨 Big Hotel Section      | B2B and bulk-order information                                                                 |
-| 📱 Responsive UI          | Mobile, tablet, and desktop support                                                            |
+* Product listing
+* Product categories
+* Product images
+* Product pricing
+* Product discovery
+* Shopping workflow
+* Order placement
+* Quantity management
+* Customer address collection
+* Order status management
+* Order date tracking
+* Product/category information stored with orders
 
 ---
 
-# 🔧 Admin Panel Features
+## 👤 User Management
 
-The platform includes a dedicated administration area for managing the e-commerce system.
+The system contains user/customer management functionality.
 
-### 🔑 Admin Authentication
+### Features
 
-Separate administrator login and session management.
+* User registration
+* User login
+* Password hashing
+* Customer profile information
+* Email-based user identification
+* Mobile number
+* Address
+* City
+* Pincode
+* Account creation timestamp
+* Account update timestamp
 
-### 📊 Dashboard
+---
 
-Provides an overview of:
+## 🔐 Authentication
 
-* Total users
-* Total orders
-* Total products
+The project uses PHP-based authentication with password hashes stored in the database.
+
+Passwords are **not stored as plain text**.
+
+The database uses password hashes generated using PHP password hashing mechanisms.
+
+> **Security Note:** Never upload real passwords, credentials, API keys or production database credentials to a public repository.
+
+---
+
+# 🛒 Product Categories
+
+The database contains separate product tables for different product categories.
+
+| Category / Table      | Purpose                       |
+| --------------------- | ----------------------------- |
+| `fashionflooring`     | Fashion flooring products     |
+| `fineindiandurrys`    | Fine Indian durrys            |
+| `fineindianjute`      | Fine Indian jute products     |
+| `fineindianknotted`   | Fine Indian knotted products  |
+| `fineindiarugs`       | Fine Indian rugs              |
+| `knottedcarpets`      | Knotted carpets               |
+| `handtufted`          | Hand-tufted products          |
+| `handtuftedsaggy`     | Hand-tufted shaggy products   |
+| `organiccarpets`      | Organic carpets               |
+| `organicyarns`        | Organic yarn products         |
+| `poojadurryaasan`     | Puja durries and aasans       |
+| `homefashion`         | Home-furnishing products      |
+| `cushioncovers`       | Cushion covers                |
+| `door`                | Door/home products            |
+| `handmadepainting`    | Handmade paintings            |
+| `customizeyourown`    | Customizable products         |
+| `forbighotel`         | Hotel/B2B products            |
+| `bamboobottels`       | Bamboo bottle products        |
+| `brassvessels`        | Brass vessel products         |
+| `kitchennatural_wood` | Kitchen/natural wood products |
+
+Each product category generally contains:
+
+```text
+id
+name
+price
+image
+created_at
+```
+
+This structure makes it easy to maintain product-specific catalogues.
+
+---
+
+# 🗄️ Database
+
+## Database Name
+
+```text
+u174340608_carpet
+```
+
+The project uses **MariaDB/MySQL-compatible relational database architecture**.
+
+The provided SQL dump was generated using:
+
+```text
+phpMyAdmin: 5.2.2
+MariaDB: 11.8.x
+PHP: 7.2.x in the original dump environment
+Character Set: utf8mb4
+Storage Engine: InnoDB
+```
+
+> For local development, use a currently supported PHP version compatible with your project code and dependencies.
+
+---
+
+# 📊 Database Schema
+
+The database contains the following major functional areas:
+
+### 🔐 Administration
+
+```text
+admin1
+```
+
+Stores administrator account information.
+
+Main fields:
+
+```text
+id
+email
+password
+created_at
+```
+
+---
+
+### 👤 Customer Registration
+
+```text
+register
+```
+
+Stores registered customer accounts.
+
+Main fields:
+
+```text
+id
+full_name
+email
+password
+created_at
+updated_at
+```
+
+The email field is uniquely indexed.
+
+---
+
+### 👥 Customer/User Profile
+
+```text
+users
+```
+
+Stores extended customer information.
+
+Main fields:
+
+```text
+id
+full_name
+email
+password
+mobile
+address
+city
+pincode
+created_at
+updated_at
+```
+
+The email field is uniquely indexed.
+
+---
+
+### 📦 Orders
+
+```text
+orders
+```
+
+This is one of the primary transactional tables.
+
+It stores information about customer orders.
+
+Important fields include:
+
+```text
+id
+user_email
+product_id
+product_name
+name
+total_amount
+qty
+status
+order_date
+mobile
+address
+city
+pincode
+product_image
+category
+created_at
+updated_at
+```
+
+### Order Information
+
+The `orders` table supports:
+
+* Customer identification
+* Product identification
+* Product name
+* Quantity
+* Total amount
 * Order status
-* Recent orders
-* Basic revenue information
+* Order date
+* Customer mobile number
+* Delivery address
+* City
+* Pincode
+* Product image
+* Product category
+* Creation timestamp
+* Last update timestamp
 
-### 📦 Product Management
-
-Administrators can:
-
-* Add products
-* Edit products
-* Delete products
-* Set product prices
-* Assign categories
-* Configure size and style
-* Manage stock
-* Upload product images
-
-### 🗂️ Category Management
-
-Administrators can manage product categories and related information.
-
-### 📋 Order Management
-
-Administrators can:
-
-* View orders
-* View order details
-* View customer information
-* View delivery address
-* Update order status
-
-### 👥 User Management
-
-View and manage registered customer information.
-
-### 🖼️ Image Management
-
-Upload and manage product images through the admin panel.
-
----
-
-# ⚙️ Technical Features
-
-* 🗄️ MySQL/MariaDB database
-* 🔐 Session-based authentication
-* 👤 Separate customer/admin sessions
-* 🔑 Password hashing support
-* 🛡️ Input sanitization
-* 📝 Error and debug logging
-* 📱 Responsive CSS layouts
-* ⚡ JavaScript-based interactivity
-* 🔄 AJAX/client-side interaction where applicable
-* 🖥️ XAMPP local development environment
-* 🌐 Apache web server
-* 📊 phpMyAdmin database management
-* 🔧 Git/GitHub version control
-
----
-
-# 🛠️ Tech Stack
-
-| Layer             | Technology      | Purpose                                     |
-| ----------------- | --------------- | ------------------------------------------- |
-| Frontend          | HTML5           | Semantic page structure                     |
-| Styling           | CSS3            | Responsive design, animations, layouts      |
-| Client-side       | JavaScript      | DOM manipulation, validation, interactivity |
-| Backend           | PHP 8.x         | Server-side application logic               |
-| Authentication    | PHP Sessions    | User/admin authentication                   |
-| Database          | MySQL / MariaDB | Application data storage                    |
-| Web Server        | Apache          | PHP application hosting                     |
-| Local Environment | XAMPP           | Apache + PHP + MySQL                        |
-| Database Tool     | phpMyAdmin      | Database administration                     |
-| Version Control   | Git             | Source-code management                      |
-| Repository        | GitHub          | Project hosting                             |
-
----
-
-# 🏗️ Project Architecture
+Example order status:
 
 ```text
-┌──────────────────────────────────────────────────────────┐
-│                  MIRZAPUR QALEEN                         │
-└──────────────────────────────────────────────────────────┘
+ordered
+```
 
-                         CLIENT
-              ┌─────────────────────────┐
-              │ HTML5 + CSS3            │
-              │ JavaScript              │
-              │ Responsive UI           │
-              └────────────┬────────────┘
-                           │
-                    HTTP Request
-                           │
-                           ▼
-              ┌─────────────────────────┐
-              │     APACHE SERVER       │
-              │         XAMPP           │
-              └────────────┬────────────┘
-                           │
-                           ▼
-              ┌─────────────────────────┐
-              │      PHP APPLICATION    │
-              │                         │
-              │ • Customer Side         │
-              │ • Authentication        │
-              │ • Shopping Cart         │
-              │ • Checkout              │
-              │ • Order Management      │
-              │ • Admin Panel           │
-              └────────────┬────────────┘
-                           │
-                       SQL Queries
-                           │
-                           ▼
-              ┌─────────────────────────┐
-              │     MySQL / MariaDB     │
-              │                         │
-              │ • users                 │
-              │ • admin                 │
-              │ • products              │
-              │ • categories            │
-              │ • cart                  │
-              │ • orders                │
-              │ • order_items           │
-              │ • contact               │
-              │ • custom_design          │
-              └─────────────────────────┘
+The status field can be extended in future versions for:
+
+```text
+ordered
+confirmed
+processing
+shipped
+delivered
+cancelled
+returned
 ```
 
 ---
 
-# 🔄 Core Shopping Flow
+### 📩 Contact / Enquiry
 
 ```text
-        Browse Homepage
-              │
-              ▼
-       Explore Categories
-              │
-              ▼
-        Select Product
-              │
-              ▼
-      Choose Size / Style
-              │
-              ▼
-      Customization (Optional)
-              │
-              ▼
-          Add to Cart
-              │
-              ▼
-           My Cart
-              │
-              ▼
-      Proceed to Checkout
-              │
-              ▼
-        Login / Register
-              │
-              ▼
-       Enter Address
-              │
-              ▼
-        Place Order
-              │
-              ▼
-     Order Confirmation
-              │
-              ▼
-       Invoice / Order
+contactme
+```
+
+Stores messages submitted through the contact form.
+
+Fields:
+
+```text
+id
+Name
+Mobile
+Email
+Message
+created_at
+```
+
+This allows the business to maintain customer enquiries and communication records.
+
+---
+
+# 🧩 Database Architecture
+
+The project follows a simple relational structure:
+
+```text
+                    ┌──────────────────┐
+                    │      Admin       │
+                    │     admin1       │
+                    └──────────────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Product Catalog  │
+                    └──────────────────┘
+                             │
+       ┌─────────────────────┼─────────────────────┐
+       ▼                     ▼                     ▼
+ fashionflooring       knottedcarpets       fineindianjute
+ handtufted             organiccarpets       homefashion
+ fineindiandurrys       cushioncovers        handmadepainting
+ ...                    ...                  ...
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │      Orders      │
+                    │     orders       │
+                    └──────────────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │     Customer     │
+                    │ register/users   │
+                    └──────────────────┘
 ```
 
 ---
 
-# 📂 Project Structure
+# 🔑 Database Keys & Constraints
 
-```text
-E-commerce-based-project/
-│
-├── 📄 index.php
-├── 📄 home.php
-├── 📄 config.php
-├── 🎨 style.css
-│
-├── 🔐 AUTHENTICATION/
-│   ├── Users_login.php
-│   ├── Resister.php
-│   ├── Admin_login.php
-│   └── logout.php
-│
-├── 🛒 SHOPPING FLOW/
-│   ├── My_Cart.php
-│   ├── order_address.php
-│   ├── create_order.php
-│   ├── My_Account.php
-│   └── profile.php
-│
-├── 🧵 PRODUCT CATEGORIES/
-│   ├── Brass_vessels.php
-│   ├── bamboo_bottels.php
-│   ├── cushion_covers.php
-│   ├── doormats.php
-│   ├── hand_tufted.php
-│   ├── hand_tufted_saggy.php
-│   ├── knotted_carpets.php
-│   ├── fine_indian_durrys.php
-│   ├── fine_indian_jute.php
-│   ├── fine_indian_knotted.php
-│   ├── organic_carpets.php
-│   ├── organic_yarns.php
-│   ├── organic_treasury.php
-│   ├── pooja_durry_aasan.php
-│   ├── kitchen_natural_wood.php
-│   ├── fashion_flooring.php
-│   ├── home_fashion.php
-│   ├── luxury_fashion.php
-│   ├── luxury_home_fashion.php
-│   └── hand_made_painting.php
-│
-├── 🎨 CUSTOMIZATION/
-│   ├── Custom_Design.php
-│   ├── customize_your_own.php
-│   ├── Product_Size.php
-│   └── Product_Style.php
-│
-├── 📄 INFORMATION PAGES/
-│   ├── Contact_Us.php
-│   ├── Privacy_Policy.php
-│   ├── Shipping_Policy.php
-│   ├── Return.php
-│   ├── Carpet_Maintenance.php
-│   ├── Drycleaning_Exchange_Offer.php
-│   ├── Social_Weavers_Welfare.php
-│   ├── for_big_hotel.php
-│   └── materials.php
-│
-├── 🔧 ADMIN PANEL/
-│   ├── Admin_login.php
-│   ├── admin.php
-│   └── welcometoDASHBOARD.php
-│
-└── 📁 ASSETS & LOGS/
-    ├── clean_hd_logo-removebg-preview.png
-    ├── ChatGPT Image ...png
-    ├── debug_log.txt
-    └── error_log.txt
+The database uses:
+
+### Primary Keys
+
+Each major table uses an `id` field as its primary key.
+
+Example:
+
+```sql
+PRIMARY KEY (id)
 ```
 
-> **Development Note:** The original project contains a few files with similar/duplicate naming conventions, such as `Brass_vessels.php` and `Brassvessels.php`. These were retained during development/testing.
+### Unique Email Constraints
+
+The following tables enforce unique email addresses:
+
+```text
+register.email
+users.email
+```
+
+This helps prevent duplicate accounts.
+
+### Auto Increment
+
+Most `id` fields use:
+
+```sql
+AUTO_INCREMENT
+```
+
+This automatically generates unique identifiers for new records.
 
 ---
 
-# 🚀 Installation Guide
+# 💾 SQL Database Setup
 
-## 📋 Prerequisites
+The repository contains the database SQL dump.
 
-Before running the project, install:
+Example file:
 
-| Tool          | Version                 | Purpose               |
-| ------------- | ----------------------- | --------------------- |
-| XAMPP         | 8.0+                    | Apache + PHP + MySQL  |
-| PHP           | 8.x                     | Backend               |
-| MySQL/MariaDB | XAMPP bundled           | Database              |
-| Browser       | Chrome / Firefox / Edge | Application           |
-| Git           | Latest                  | Repository management |
-| VS Code       | Latest                  | Development           |
+```text
+u174340608_carpet.sql
+```
+
+## Step 1 — Install XAMPP
+
+Install XAMPP with:
+
+* Apache
+* MySQL/MariaDB-compatible database
+* PHP
+* phpMyAdmin
 
 ---
 
-## 1️⃣ Clone the Repository
+## Step 2 — Start Services
 
-```bash
-git clone https://github.com/ranjeet-dev123/E-commerce-based-project.git
-```
-
-Or download the repository as a ZIP file and extract it.
-
----
-
-## 2️⃣ Move Project to XAMPP
-
-### Windows
+Open XAMPP Control Panel and start:
 
 ```text
-C:\xampp\htdocs\E-commerce-based-project\
-```
-
-### macOS
-
-```text
-/Applications/XAMPP/htdocs/E-commerce-based-project/
-```
-
-### Linux
-
-```text
-/opt/lampp/htdocs/E-commerce-based-project/
+Apache
+MySQL
 ```
 
 ---
 
-## 3️⃣ Start XAMPP
+## Step 3 — Create Database
 
-Open **XAMPP Control Panel** and start:
-
-```text
-Apache  → Running
-MySQL   → Running
-```
-
-Default ports:
-
-```text
-Apache → 80
-MySQL  → 3306
-```
-
-If port `80` is already occupied, Apache can be configured to use another available port such as `8080`.
-
----
-
-# 🗄️ Database Setup
-
-## 4️⃣ Create Database
-
-Open:
+Open phpMyAdmin:
 
 ```text
 http://localhost/phpmyadmin
 ```
 
-Create a new database:
+Create a database:
 
 ```text
-mirzapur_qaleen
+u174340608_carpet
 ```
 
-Recommended character set:
+---
+
+## Step 4 — Import SQL
+
+Open the newly created database and select:
 
 ```text
-utf8mb4
+Import
 ```
 
----
-
-## 5️⃣ Import SQL Database
-
-If an SQL export file is available:
-
-1. Open phpMyAdmin
-2. Select `mirzapur_qaleen`
-3. Open **Import**
-4. Select the SQL file
-5. Click **Go**
-
-If an SQL export is not included, create the required tables according to the database schema.
-
----
-
-# 🧩 Database Schema
-
-## Main Tables
-
-| Table           | Purpose                   | Important Columns                 |
-| --------------- | ------------------------- | --------------------------------- |
-| `users`         | Registered customers      | id, name, email, password         |
-| `admin`         | Administrator accounts    | id, username, password            |
-| `products`      | Product catalog           | id, name, price, category         |
-| `categories`    | Product categories        | id, name, image                   |
-| `cart`          | Shopping-cart items       | user_id, product_id, quantity     |
-| `orders`        | Customer orders           | id, user_id, total_amount, status |
-| `order_items`   | Individual order products | order_id, product_id, quantity    |
-| `contact`       | Contact submissions       | name, email, message              |
-| `custom_design` | Custom design requests    | user_id, design_data              |
-
----
-
-## Core SQL Schema
-
-```sql
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
-    password VARCHAR(255),
-    phone VARCHAR(15),
-    address TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE admin (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) UNIQUE,
-    password VARCHAR(255)
-);
-
-CREATE TABLE products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(200),
-    category VARCHAR(100),
-    price DECIMAL(10,2),
-    size VARCHAR(50),
-    style VARCHAR(50),
-    image VARCHAR(255),
-    description TEXT,
-    stock INT DEFAULT 0
-);
-
-CREATE TABLE cart (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT,
-    product_id INT,
-    quantity INT DEFAULT 1,
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (product_id) REFERENCES products(id)
-);
-
-CREATE TABLE orders (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT,
-    total_amount DECIMAL(10,2),
-    status VARCHAR(50) DEFAULT 'Pending',
-    address TEXT,
-    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-```
-
----
-
-# 🔗 Database Relationship
+Then choose:
 
 ```text
-                 ┌──────────────┐
-                 │    USERS     │
-                 └──────┬───────┘
-                        │
-             ┌──────────┴──────────┐
-             ▼                     ▼
-       ┌──────────┐          ┌──────────┐
-       │   CART   │          │  ORDERS  │
-       └────┬─────┘          └────┬─────┘
-            │                     │
-            ▼                     ▼
-       ┌──────────┐          ┌─────────────┐
-       │ PRODUCTS │          │ ORDER_ITEMS │
-       └──────────┘          └──────┬──────┘
-                                    │
-                                    ▼
-                                PRODUCTS
+u174340608_carpet.sql
+```
+
+and execute the import.
+
+---
+
+# ⚙️ Project Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/ranjeet-dev123/E-commerce-based-project.git
+```
+
+Enter the project:
+
+```bash
+cd E-commerce-based-project
 ```
 
 ---
 
-# ⚙️ Database Configuration
+## 2. Copy Project to XAMPP
 
-Open:
+Copy the project into:
 
 ```text
-config.php
+C:\xampp\htdocs\
 ```
 
-Configure the connection according to your XAMPP installation.
-
-Example local configuration:
-
-```php
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "mirzapur_qaleen";
-```
-
-> ⚠️ **Security:** Never commit real production database credentials to GitHub. For production deployment, use environment variables or a secure secrets-management solution.
-
----
-
-# ▶️ Launch the Application
-
-After configuring Apache, PHP, and MySQL, open:
+For example:
 
 ```text
-http://localhost/E-commerce-based-project/
+C:\xampp\htdocs\CARPET
 ```
 
-### Admin Panel
+The project can then be accessed through:
 
 ```text
-http://localhost/E-commerce-based-project/Admin_login.php
+http://localhost/CARPET/
 ```
 
----
-
-# 🎮 How to Use
-
-## 👤 Customer Workflow
-
-|   Step | Action                          |
-| -----: | ------------------------------- |
-|    1️⃣ | Open the homepage               |
-|    2️⃣ | Browse product categories       |
-|    3️⃣ | Select a product                |
-|    4️⃣ | Choose size and style           |
-|    5️⃣ | Add product to cart             |
-|    6️⃣ | Open My Cart                    |
-|    7️⃣ | Update quantity if required     |
-|    8️⃣ | Proceed to checkout             |
-|    9️⃣ | Login/Register                  |
-|     🔟 | Enter shipping address          |
-| 1️⃣1️⃣ | Place order                     |
-| 1️⃣2️⃣ | View order confirmation/invoice |
+Depending on the actual project folder structure, use the appropriate entry path.
 
 ---
 
-# 👨‍💼 Admin Workflow
+# 🔧 Database Configuration
+
+The project contains a PHP database configuration file:
 
 ```text
-Admin Login
-     │
-     ▼
-Dashboard
-     │
-     ├── Products
-     │     ├── Add
-     │     ├── Edit
-     │     └── Delete
-     │
-     ├── Categories
-     │
-     ├── Users
-     │
-     ├── Orders
-     │     └── Update Status
-     │
-     └── Sales Overview
+public_html/config.php
 ```
 
----
+Configure the database connection according to your local environment.
 
-# 🔧 Admin Panel
-
-## 1. Admin Authentication
-
-Admin authentication is separated from customer authentication.
-
-After successful login, an administrator session is created.
-
-Protected pages verify the admin session before granting access.
-
-Example:
-
-```php
-session_start();
-
-if (!isset($_SESSION['admin_id'])) {
-    header("Location: Admin_login.php");
-    exit();
-}
-```
-
----
-
-## 2. Dashboard
-
-The dashboard provides information such as:
-
-* Total registered users
-* Total orders
-* Total products
-* Order status overview
-* Recent orders
-* Basic sales/revenue information
-* Quick management actions
-
----
-
-## 3. Product Management
-
-Administrators can:
-
-* Add products
-* Edit products
-* Delete products
-* Set product prices
-* Assign categories
-* Configure sizes
-* Configure styles
-* Manage stock
-* Upload product images
-
----
-
-## 4. Order Management
-
-Supported order statuses include:
+Typical local XAMPP configuration:
 
 ```text
-Pending
-   ↓
-Processing
-   ↓
-Shipped
-   ↓
-Delivered
+Host: localhost
+Database: u174340608_carpet
+Username: root
+Password: 
 ```
 
-Administrators can view order details and update order status.
+> ⚠️ Do not publish real production database credentials in `config.php`.
+
+For production deployment, use environment variables or a secure server-side configuration system.
 
 ---
 
-## 5. User Management
+# 📁 Project Structure
 
-The administrator can view registered users and available account information.
-
----
-
-# 🔐 Admin Access
-
-Local development URL:
+A simplified project structure is:
 
 ```text
-http://localhost/E-commerce-based-project/Admin_login.php
+E-commerce-based-project/
+│
+├── public_html/
+│   │
+│   ├── AUTHENTICATION/
+│   │
+│   ├── SHOPPING FLOW/
+│   │
+│   ├── PRODUCT CATEGORIES/
+│   │
+│   ├── CUSTOMIZATION/
+│   │
+│   ├── INFO PAGES/
+│   │
+│   ├── ADMIN PANEL/
+│   │
+│   ├── assets/
+│   │
+│   ├── images/
+│   │
+│   ├── config.php
+│   └── ...
+│
+├── u174340608_carpet.sql
+├── .gitignore
+└── README.md
 ```
 
-> ⚠️ If default development credentials are configured in the local version, change them before deploying the application publicly.
-
-For production:
-
-```php
-password_hash()
-password_verify()
-```
-
-should be used for secure password storage and verification.
+> Folder names may vary depending on the current repository version.
 
 ---
 
-# 🔐 Security & Technical Notes
+# 🧑‍💻 Technology Stack
 
-The project currently includes:
+### Frontend
 
-* Session-based authentication
-* Separate user/admin sessions
-* Password hashing support
-* Input sanitization
-* Protected admin pages
-* Error/debug logging
-* Basic access control
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
+* Bootstrap / UI components where applicable
+* Font Awesome where applicable
 
-## 🛡️ Recommended Production Hardening
+### Backend
 
-Before public deployment, the following improvements are recommended:
-
-* Move database credentials from `config.php` to environment variables
-* Convert remaining SQL queries to prepared statements
-* Add stronger server-side validation
-* Review authentication and authorization rules
-* Add CSRF protection
-* Disable debug/error output in production
-* Store logs outside publicly accessible directories
-* Enable HTTPS
-* Implement stronger password policies
-* Add secure session configuration
-* Validate uploaded file types and sizes
-* Add rate limiting for authentication endpoints
-
----
-
-# 🗺️ Roadmap
-
-## ✅ Completed
-
-* ☑ User Authentication — Login/Register
-* ☑ Admin Panel with Dashboard
-* ☑ Product Management — Add/Edit/Delete
-* ☑ Order Management with Status Update
-* ☑ User Management
-* ☑ 20+ Product Categories
-* ☑ Shopping Cart System
-* ☑ Order Placement Flow
-* ☑ Custom Design Feature
-* ☑ Return & Exchange Information
-* ☑ Carpet Maintenance Guide
-* ☑ B2B Hotel Section
-* ☑ Responsive Design
-* ☑ Session-based Security
-
----
-
-## 🚧 Upcoming Features
-
-* ☐ 💳 Payment Gateway — Razorpay / Paytm / Stripe
-* ☐ 📧 Email Notifications
-* ☐ 📱 SMS Order Alerts
-* ☐ ⭐ Product Reviews & Ratings
-* ☐ ❤️ Wishlist
-* ☐ 🔍 Advanced Search & AJAX Filters
-* ☐ 📊 Advanced Analytics Dashboard
-* ☐ 🌐 Hindi + English Multi-language Support
-* ☐ 🚚 Live Order Tracking
-* ☐ 🔐 OTP-based Login
-
----
-
-# 🧹 Code Quality & Architecture Roadmap
-
-Future technical improvements:
-
-* ☐ Remove duplicate/legacy file versions
-* ☐ Move database credentials to environment variables
-* ☐ Convert remaining SQL queries to prepared statements
-* ☐ Reorganize application using MVC architecture
-* ☐ Add Composer integration
-* ☐ Introduce reusable components
-* ☐ Add unit/integration tests
-* ☐ Improve API/service separation
-* ☐ Add centralized error handling
-
----
-
-# 📸 Project Highlights
-
-The application is designed around a complete digital shopping journey:
-
-```text
-┌───────────────────────┐
-│     🏠 HOMEPAGE       │
-│ Categories + Products │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│    🧵 PRODUCT PAGE    │
-│ Size + Style +        │
-│ Customization         │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│      🛒 CART          │
-│ Quantity + Total      │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│     📦 CHECKOUT       │
-│ Address + Order       │
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│   ✅ CONFIRMATION     │
-│ Order / Invoice       │
-└───────────────────────┘
-```
-
----
-
-# 📄 License
-
-**© 2025 Ranjeet — All Rights Reserved**
-
-This project is intended to remain a **private e-commerce project**.
-
-Unauthorized commercial use, redistribution, or deployment is prohibited without permission from the project owner.
-
----
-
-# 👨‍💻 Author
-
-## Ranjeet 🇮🇳
-
-**Full-Stack Web Developer**
-
-* **GitHub:** `ranjeet-dev123`
-* **Project:** Mirzapur Qaleen
-* **Project Type:** Private E-Commerce Platform
-* **Technology:** PHP + MySQL + HTML + CSS + JavaScript
-* **Role:** Solo Developer
-
-### 🎯 Mission
-
-> **Traditional Indian handicrafts ko modern digital platform dena.**
-
-The project was developed independently across:
-
-* Frontend
-* Backend
-* Database
+* PHP
+* PHP Sessions
+* Server-side form processing
 * Authentication
-* Shopping Cart
-* Order Management
-* Admin Panel
-* Responsive UI
+* Order processing
+* Database operations
+
+### Database
+
+* MySQL / MariaDB
+* phpMyAdmin
+* SQL
+* InnoDB
+* UTF-8 / `utf8mb4`
+
+### Development Environment
+
+* XAMPP
+* Apache
+* VS Code
+* Git
+* GitHub
 
 ---
 
-# 🙏 Acknowledgements
+# 🔒 Security Considerations
 
-Special thanks to:
+The project implements or is designed around several basic security practices:
 
-### 🧶 Mirzapur's Qaleen Weavers
+* Password hashing
+* Session-based authentication
+* Server-side validation
+* Input sanitization
+* Database-backed authentication
+* Unique email constraints
+* Controlled database access
 
-For preserving generations of traditional carpet craftsmanship.
+## Recommended Production Improvements
 
-### 🎨 Local Artisans
+Before production deployment, the following should be added or reviewed:
 
-For carrying traditional Indian craftsmanship forward.
-
-### 💻 Open Source Community
-
-For technologies such as PHP, MySQL, JavaScript, and XAMPP.
-
-### 🏫 Mentors & Teachers
-
-For their technical guidance and support.
-
-### 👨‍👩‍👧 Family & Friends
-
-For their continuous encouragement and support.
-
----
-
-# 📞 Contact
-
-For project-related queries, collaboration, suggestions, or technical discussions:
-
-### 💬 GitHub
-
-`ranjeet-dev123`
-
-### 🐛 Issues
-
-Use the GitHub Issues section of the repository.
+* Prepared statements throughout the complete codebase
+* CSRF protection
+* Strong server-side validation
+* Secure session cookie configuration
+* HTTPS
+* Rate limiting
+* Secure password reset workflow
+* Role-based access control
+* Secure file-upload validation
+* Environment-based database credentials
+* Database backups
+* Error logging without exposing sensitive information
+* Removal of test/personal customer data from public SQL dumps
 
 ---
 
-# ⭐ Support the Project
+# 🛒 Order Workflow
 
-If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+The basic order workflow is:
 
-Your support helps encourage further development and improvement.
+```text
+Customer
+   │
+   ▼
+Browse Products
+   │
+   ▼
+Select Product
+   │
+   ▼
+Add / Continue Shopping
+   │
+   ▼
+Provide Customer Details
+   │
+   ▼
+Enter Delivery Address
+   │
+   ▼
+Place Order
+   │
+   ▼
+Store Order in `orders`
+   │
+   ▼
+Order Status = ordered
+```
 
 ---
 
-## 🧶 Project Mission
+# 🎨 Customization
 
-> **"Mirzapur ki Qaleen ab ghar baithe order karein." 🇮🇳**
+The platform includes a customization-oriented product section through:
 
-**Made with ❤️ in Mirzapur, India 🇮🇳**
+```text
+customizeyourown
+```
+
+The concept allows the platform to be extended toward custom carpet requirements such as:
+
+* Custom dimensions
+* Design selection
+* Material selection
+* Color preferences
+* Handmade/custom production requests
+
+Future versions can connect these requirements directly to a dedicated customization-order table.
 
 ---
 
-⬆️ **Back to Top**
+# 🏨 B2B / Hotel Products
+
+The database includes:
+
+```text
+forbighotel
+```
+
+This provides a foundation for serving hotel and institutional customers.
+
+Potential future B2B features:
+
+* Bulk orders
+* Hotel quotations
+* Custom carpet dimensions
+* Business enquiries
+* Wholesale pricing
+* Dedicated B2B accounts
+
+---
+
+# 📞 Customer Communication
+
+The `contactme` table stores customer enquiries.
+
+Workflow:
+
+```text
+Customer
+    ↓
+Contact Form
+    ↓
+PHP Backend
+    ↓
+Database
+    ↓
+contactme
+```
+
+This can later be extended with:
+
+* Admin enquiry management
+* Email notifications
+* Reply system
+* Contact status
+* Follow-up tracking
+
+---
+
+# 🚀 Future Improvements
+
+Planned or recommended enhancements include:
+
+### Payment
+
+* Razorpay integration
+* UPI
+* Card payments
+* Payment verification
+* Payment transaction records
+
+### Order Management
+
+* Order tracking
+* Delivery status
+* Cancellation
+* Return management
+* Refund management
+
+### Customer Features
+
+* Wishlist
+* Product reviews
+* Ratings
+* Saved addresses
+* Order history
+* Profile management
+
+### Product Management
+
+* Product search
+* Filters
+* Sorting
+* Stock management
+* Multiple product images
+* Product variants
+* Size-based pricing
+
+### Admin Dashboard
+
+* Product CRUD
+* Category management
+* User management
+* Order management
+* Customer enquiries
+* Sales reports
+* Inventory management
+
+### Security
+
+* CSRF protection
+* Prepared statements
+* Role-based authorization
+* Secure file uploads
+* HTTPS
+* Environment variables
+
+---
+
+# 📈 Scalability Roadmap
+
+The current project is built using PHP and MySQL/MariaDB and can be gradually improved.
+
+### Phase 1 — Current Foundation
+
+```text
+PHP + MySQL/MariaDB
+HTML + CSS + JavaScript
+Authentication
+Products
+Orders
+Contact
+```
+
+### Phase 2 — E-Commerce Enhancement
+
+```text
+Payment Gateway
+Wishlist
+Reviews
+Search
+Filters
+Inventory
+Order Tracking
+```
+
+### Phase 3 — Business Platform
+
+```text
+Advanced Admin Dashboard
+B2B Management
+Analytics
+Reports
+Notifications
+Customer Support
+```
+
+### Phase 4 — Modern Architecture
+
+```text
+REST API
+React Frontend
+PHP/Laravel or Java/Spring Boot Backend
+MySQL
+Cloud Deployment
+```
+
+---
+
+# 🧪 Local Testing Checklist
+
+Before considering the project ready for demonstration, test:
+
+* [ ] Homepage loads correctly
+* [ ] Product categories open
+* [ ] Product images load
+* [ ] Product prices display correctly
+* [ ] User registration works
+* [ ] Login works
+* [ ] Password hashing works
+* [ ] Product selection works
+* [ ] Order placement works
+* [ ] Customer address is saved
+* [ ] Order appears in database
+* [ ] Order status is stored
+* [ ] Contact form works
+* [ ] Admin authentication works
+* [ ] Admin functionality works
+* [ ] Database import works
+* [ ] Responsive layout works
+* [ ] Invalid form inputs are handled
+* [ ] No database credentials are exposed
+
+---
+
+# 🛠️ Troubleshooting
+
+## Apache Not Starting
+
+Check whether another application is using port:
+
+```text
+80
+443
+```
+
+Change Apache ports from XAMPP if required.
+
+---
+
+## MySQL Not Starting
+
+Check whether another MySQL/MariaDB service is already running.
+
+---
+
+## Database Connection Error
+
+Verify:
+
+```text
+Database name
+Username
+Password
+Host
+Port
+```
+
+and check:
+
+```text
+public_html/config.php
+```
+
+---
+
+## Images Not Loading
+
+Check:
+
+* Image file paths
+* Folder names
+* File extensions
+* Case sensitivity
+* Apache document root
+
+---
+
+# 🌐 Repository
+
+**GitHub Repository:**
+
+[E-commerce-based-project](https://github.com/ranjeet-dev123/E-commerce-based-project?utm_source=chatgpt.com)
+
+---
+
+# 👨‍💻 Developer
+
+**Ranjeet Kumar**
+
+B.Tech CSE Student & Developer
+
+### Areas of Interest
+
+* Web Development
+* Backend Development
+* Database Systems
+* Java
+* Data Structures & Algorithms
+* Spring Boot
+* Cloud Computing
+
+---
+
+# 📜 License
+
+This project is intended for **educational, development and demonstration purposes** unless otherwise specified by the project owner.
+
+Before commercial deployment, review all third-party assets, images, libraries and licensing requirements.
+
+---
+
+# ⭐ Project Highlights
+
+```text
+🧶 Mirzapur Handmade Carpet Focus
+🛍️ E-Commerce Product Catalog
+👤 User Authentication
+🔐 Password Hashing
+📦 Order Management
+🗄️ MySQL/MariaDB Database
+📩 Contact Management
+🎨 Product Customization Foundation
+🏨 B2B/Hotel Product Foundation
+📱 Responsive Web Interface
+⚙️ PHP Backend
+🚀 Future Payment & Cloud Integration
+```
+
+---
+
+## 📌 Important Database Note
+
+The SQL dump contains development/test records. **For a public GitHub repository, remove personal customer information and do not publish real credentials or sensitive production data.**
+
+Use anonymized/demo records when sharing the database publicly.
